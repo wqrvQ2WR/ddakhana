@@ -1,0 +1,57 @@
+.ddakhana-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255, 106, 61, 0.96), rgba(255, 45, 149, 0.96) 55%, rgba(124, 58, 237, 0.96));
+  font-family: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  color: #fff;
+}
+
+.ddakhana-card {
+  text-align: center;
+  padding: 48px 64px;
+}
+
+.ddakhana-label {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  opacity: 0.9;
+}
+
+.ddakhana-count {
+  margin: 8px 0 0;
+  font-size: 160px;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.ddakhana-desc {
+  margin: 8px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.92;
+}
+
+.ddakhana-cancel {
+  margin-top: 28px;
+  padding: 12px 32px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ddakhana-cancel:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
